@@ -1,0 +1,31 @@
+name: Publish
+
+on: deployment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ github.token }}
+          publish_dir: ./public
+          disable_nojekyll: true
+
+      - name: deployment success
+        if: success()
+        uses: deliverybot/deployment-status@v1
+        with:
+          state: success
+          token: ${{ github.token }}
+
+      - name: deployment failure
+        if: failure()
+        uses: deliverybot/deployment-status@v1
+        with:
+          state: failure
+          token: ${{ github.token }}
