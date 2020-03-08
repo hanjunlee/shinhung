@@ -13,7 +13,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ github.token }}
-          publish_dir: ./public
+          publish_dir: ./public/shinhung
           disable_nojekyll: true
 
       - name: deployment success
