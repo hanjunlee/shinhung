@@ -11,6 +11,12 @@
 
 ## Contribute
 
+### Init (optional)
+
+1. `src/shinhung.bsdesign` -> `src/YOUR_NAME.bsdesign`으로 복사
+2. [Import](#import) 작업 진행
+
+
 ### Import
 
 1. `Open` 버튼 클릭
@@ -26,3 +32,7 @@ Open > `shinhung/src/YOUR_NAME.bsdesign` 찾기 > 오픈 후, 작업을 진행
 
 ![export file](./img/export.png)
 
+## Deploy
+
+1. Merge manually by BS design.
+2. Export into `public/shinhung`
