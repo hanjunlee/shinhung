@@ -19,3 +19,10 @@ Open > `shinhung/src/YOUR_NAME.bsdesign` 찾기 > 오픈 후, 작업을 진행
 
 ![import file](./img/import.png)
 
+### Export
+
+1. `Export` 버튼 클릭
+2. `shinhung/public/YOUR_NAME` 경로에 export
+
+![export file](./img/export.png)
+
