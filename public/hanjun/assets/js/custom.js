@@ -1,6 +1,6 @@
 // onepage scroll
 $(window).on('load', function() {
-    $('.main').onepage_scroll();    
+    $('.main').onepage_scroll();
 })
 // issue 347 in onepage-scroll
 // see https://github.com/peachananr/onepage-scroll/issues/347
