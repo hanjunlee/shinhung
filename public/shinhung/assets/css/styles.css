@@ -2,3 +2,23 @@ section {
   overflow-y: auto;
 }
 
+.text-shinhung {
+  color: #10269d;
+}
+
+@media (min-width: 300px) {
+  .our-product-bg {
+    background-image: url("../../assets/img/our-product-mobile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 576px) {
+  .our-product-bg {
+    background-image: url("../../assets/img/our-product-web.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
